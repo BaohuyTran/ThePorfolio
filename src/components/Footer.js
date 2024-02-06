@@ -14,7 +14,7 @@ function Footer() {
         <InstagramIcon />
         <GitHubIcon />
       </div>
-      <p>&copy; The project is following this tutorial: https://youtu.be/x7mwVn2z3Sk</p>
+      <p>&copy; The project is following <a href="https://youtu.be/x7mwVn2z3Sk" style={{ "text-decoration": "none", color: "yellow" }}>this tutorial</a></p>
     </div>
   );
 }

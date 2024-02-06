@@ -1,5 +1,5 @@
-import Proj1 from "../assets/proj1.jpg";
-import Proj2 from "../assets/proj2.jpg";
+import Okr from "../assets/okr.png";
+import Datawarehouse from "../assets/datawarehouse.png";
 import Proj3 from "../assets/proj3.webp";
 import Proj4 from "../assets/proj4.webp";
 import Proj5 from "../assets/proj5.jpg";
@@ -7,34 +7,55 @@ import Proj6 from "../assets/proj6.png";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
-    image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    name: "OKR tool",
+    image: Okr,
+    skills: "Vus, Nest.js",
+    description: `This is an internal project of Bosch. It is a OKR tool (Objective - Key Result) designed to help
+                  manage teams' work progress.
+                  My main role is to maintain this tool and also create some new functions (example: drag and drop
+                  feature)
+                  I also have some tasks in backend, to create new or fix api`,
+    src: "",
   },
   {
-    name: "Ecommerce Website",
-    image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    name: "Data warehouse",
+    image: Datawarehouse,
+    skills: "React, D3.js",
+    description: `This is an internal project of KSE. It is a tool for analyzing and visualizing data, available in both
+                  mobile and web versions.
+                  My main role is to design the interface for this website and also in charge of visualizing data
+                  recieved from back-end.
+                  `,
+    src: "",
+
   },
   {
-    name: "Spotify Clone",
+    name: "Chat app",
     image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "React, Node.js, MongoDB, SocketIO",
+    description: `I created this project on my own to study NodeJS and Socket, also to practice with React`,
+    src: "https://github.com/BaohuyTran/chat_app/",
   },
   {
-    name: "Social Media Website",
+    name: "Movie Review",
     image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    skills: "Java Spring Boot, ReactJS, MongoDB",
+    description: `I created this project on my own to study Java Spring Boot and practice with React`,
+    src: "https://github.com/BaohuyTran/Movie",
   },
   {
-    name: "Dashboard Visualizer",
+    name: "Weird Race",
+    image: Proj4,
+    skills: "C#, Unity 3d",
+    description: ``,
+    src: "https://simmer.io/@BaoHuy_Tran/weird-race",
+  },
+  {
+    name: "Sumo Balls",
     image: Proj5,
-    skills: "JavaScript,HTML,CSS",
-  },
-  {
-    name: "Mobile Game",
-    image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
+    skills: "C#, Unity 3d",
+    description: ``,
+    src: "https://simmer.io/@BaoHuy_Tran/sumo-balls",
   },
 ];
 
@@ -87,4 +108,4 @@ export const ExperienceList = [
     to: "08/2023",
     type: "work",
   },
-]
+];
